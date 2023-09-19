@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="forms.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <div class="banner">
+        <div class="logo"><img src="pictures/odin-lined.png" alt="" /></div>
+        <div class="odin">ODIN</div>
+      </div>
+      <div class="caption">
+        <caption>
+          Photo by
+          <a
+            href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Halie West</a
+          >
+          on
+          <a
+            href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Unsplash</a
+          >
+        </caption>
+      </div>
+    </div>
+    <div class="text-container">
+      <div class="top-text">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+      <div class="sign-up-container">
+        <h3>Let's do this!</h3>
+        <form action="">
+          <div class="sign-up left">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" id="first-name" required />
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" required />
+            <label for="initial-password">PASSWORD</label>
+            <input type="password" id="initial-password" required />
+          </div>
+          <div class="sign-up right">
+            <label for="last-name">LAST NAME</label>
+            <input type="text" id="last-name" required />
+            <label for="phone-number">PHONE NUMBER</label>
+            <input type="text" id="phone-number" required />
+            <label for="confirm-password">CONFIRM PASSWORD</label>
+            <input type="password" id="confirm-password" required />
+          </div>
+          <button type="submit">Create Account</button>
+        </form>
+      </div>
+      <div class="create-account">
+        <p>Already have an account? <a href="google.com">Log in</a></p>
+      </div>
+    </div>
+
+    <script src="forms.js"></script>
+  </body>
+</html>
